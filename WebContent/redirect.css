@@ -1,0 +1,38 @@
+@charset "ISO-8859-1";
+
+*{
+	font-family: roboto, sans-serif;
+}
+
+.container {
+	position: relative;
+}
+
+p {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin-top: 200px;
+}
+
+.form-box {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin-top: 250px;
+}
+ 
+input[type="text"] {
+	padding: 10px;
+	border: 1px solid #A153DD;
+}
+
+input[type="submit"]{
+	padding: 8px;
+	margin-left: 10px;
+	background-color: #A153DD;
+	border-radius: 8px;
+	color: #f1f0f1;
+}

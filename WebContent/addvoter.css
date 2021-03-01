@@ -1,0 +1,93 @@
+@charset "ISO-8859-1";
+
+* {
+	
+	font-family: lato, sans-serif;
+}
+
+.main-form {
+	position: relative;
+	margin-top: 100px;
+}
+
+h3 {
+	color: #A153DD;
+	margin-left: 48%;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+.form {
+	margin-left: 40%;
+	padding: 10px 0;
+	font-size: 16px;
+	color: #333;
+	margin-top: 20px;
+	background: transparent; 
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+input {
+	display: block;
+	width: 25%;
+	padding: 5px;
+	margin-bottom: 5px;
+	padding: 5px 0;
+	color: #333;
+	margin-bottom: 14px;
+	border: none;
+	border-bottom: 2px solid #A153DD;
+	outline: none;
+	background: transparent; 
+	width:400px;
+}
+
+input[type="radio"] {
+	display: inline-block;
+	width: auto;
+	margin-right: 10px;
+
+}
+
+.point {
+	margin-left: 20px;
+}
+
+.point:hover {
+	cursor: pointer;
+}
+
+input[name="pincode"] {
+	width: 50px;
+}
+
+input[type="submit"] {
+	background: transparent;
+	border: none;
+	outline: none;
+	color: #fff;
+	background: #03a9f4;
+	padding: 10px 20px;
+	cursor: pointer;
+	border-radius: 5px;
+	width: 80px;
+	margin-left: 120px;
+	margin-top: 10px;
+	
+}
+
+.submit:hover {
+	transform: translateY(-3px);
+}
+
+.submit:active {
+	transform: translateY(-1px);
+}
+
+textarea {
+	border: 2px solid #A153DD;
+	width: 400px;
+}

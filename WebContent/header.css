@@ -1,0 +1,23 @@
+@charset "ISO-8859-1";
+*{
+	margin: 0;
+	padding: 0;
+}
+.main-head{
+	background-color: #A153DD;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 2;
+	border-bottom: 2px solid #F1F0F1;
+}
+
+h2 {
+	padding:20px;
+	font-size: 38px;
+	color: #F1F0F1;
+	margin: 0;
+	font-family: roboto, sans-serif;
+	text-align: center;
+	
+}
